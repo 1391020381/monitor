@@ -1,0 +1,25 @@
+{
+  "name": "ostrich-server",
+  "version": "1.0.0",
+  "description": "'性能监控服务端,基于koa的上层框架'",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.3",
+    "koa-body": "^4.2.0",
+    "koa-compress": "^5.1.0",
+    "koa-cors": "^0.0.16",
+    "koa-etag": "^4.0.0",
+    "koa-favicon": "^2.1.0",
+    "koa-logger": "^3.2.1",
+    "koa-response-time": "^2.1.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
